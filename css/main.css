@@ -1,0 +1,42 @@
+.background-img{
+    background:url(https://images.pexels.com/photos/1205301/pexels-photo-1205301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   
+    background-size: cover;
+     background-position: center;
+    background-origin: content-box;
+    height: -webkit-fill-available
+   
+    
+}
+.card {
+    border-radius: 10px;
+}
+.card .card-image img{
+    border-radius: 10px 10px 0 0;
+}
+.card-action{
+     border-radius: 10px !important;
+}
+
+/*
+.background-block{
+    min-height: 300px;
+    min-width: 300px;
+    background-color: white;
+    border-color: lightgray;
+    margin-top: 15%;
+}
+*/
+
+  .container  {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container .row {
+  margin: 0 auto;
+}
